@@ -1,0 +1,25 @@
+{
+  "name": "worm-cctp",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@wormhole-foundation/connect-sdk": "^0.4.5",
+    "@wormhole-foundation/connect-sdk-evm": "^0.4.5",
+    "@wormhole-foundation/connect-sdk-evm-cctp": "^0.4.5",
+    "@wormhole-foundation/connect-sdk-evm-core": "^0.4.5",
+    "@wormhole-foundation/connect-sdk-evm-tokenbridge": "^0.4.5",
+    "@wormhole-foundation/connect-sdk-solana": "^0.4.5",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.11.1",
+    "fs": "^0.0.1-security"
+  }
+}
